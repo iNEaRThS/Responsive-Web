@@ -11,7 +11,7 @@ body{
   background: #FBB552;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 10px;
+  
 }
 
 .moheader{
@@ -303,6 +303,9 @@ footer address{
 
 @media screen and (min-width:768px) and (max-width:1199px){
 
+  #wrap{
+    padding: 0;
+  }
 
   .pcbletheader{
     width: 100%;
@@ -341,6 +344,8 @@ footer address{
   section{
     width: 100%;
     max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .section1{
     flex-flow: row wrap;
@@ -563,6 +568,7 @@ footer address{
   }
   .section2 .new .new_text ul li{
     margin-bottom: 30px;
+    font-size: 16px;
   }
   .section2 .popular{
     width: 100%;
@@ -575,6 +581,7 @@ footer address{
   }
   .section2 .popular .pop_text ul li{
     margin-bottom: 30px;
+    font-size: 16px;
   }
   .section3{
     display: flex;
